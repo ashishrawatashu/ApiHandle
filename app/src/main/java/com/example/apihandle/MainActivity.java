@@ -30,6 +30,10 @@ public class MainActivity extends AppCompatActivity implements ApiResponse {
         ApiService<CountryResponse> service = new ApiService<>();
         service.get(this, ApiClient.getApiInterface().getCountryApi(), "GetCountry");
 //mmmmmmm
+
+
+
+        //love u ashii
         ApiService<JsonObject> service1 = new ApiService<>();
         service1.get(this, ApiClient.getApiInterface().getCountry(), "GetCountry1");
     }
